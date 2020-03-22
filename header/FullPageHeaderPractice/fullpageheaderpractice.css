@@ -1,0 +1,91 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* ==== FULL SCREEN HEADER ==== */
+
+.cover {
+	background: url('https://i.pinimg.com/736x/6c/e2/b9/6ce2b93b2d253f08c29683dd00051c33.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: hsla(243, 100%, 36%, 0.92);
+	font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+	display: table-cell;
+  vertical-align: middle;
+	padding: 0 .625rem;
+}
+
+.byline h2 {
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+	letter-spacing: .1rem;
+	margin-bottom: .5rem;
+	text-transform: uppercase;
+  background-color: hsla(360, 100%, 100%, 0.25);
+}
+
+.byline h3 {
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+  background-color: hsla(360, 100%, 100%, 0.25);
+  
+}
+
+.headline {
+	font-size: 3rem;
+	margin: 2rem 0;
+  background-color: hsla(360, 100%, 100%, 0.25);
+}
+
+@media screen and (min-width: 1224px) {
+
+	.headline {
+		font-size: 6rem;
+	}
+
+}
+
+.tagline {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+  background-color: hsla(360, 100%, 100%, 0.25);
+}
+
+/* ==== ARTICLE STYLES ==== */
+
+section {
+	padding: 0 .625rem;
+  background-color: hsla(360, 100%, 100%, 0.25);
+}
+
+@media screen and (min-width: 1224px) {
+
+	section {
+		width: 50%;
+		max-width: 600px;
+		margin: 2rem auto;
+	}
+
+}
+
+section h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 2rem;
+	line-height: 1.25;
+	margin: 2rem 0;
+}
+
+section p {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin: 1rem 0;
+}
